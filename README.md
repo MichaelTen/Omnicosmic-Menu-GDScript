@@ -92,15 +92,13 @@ not part of the official Ultra Omnicosmic ecosystem.
 
 Developed for demonstration and learning purposes in **Godot 4.5.1**.  
 Assets and layout created as part of the **Ultra Omnicosmic** series of experiments.
-```
+
 
 Here’s the **node layout** section in clean Markdown format for your `README.md`:
 
 ## 🧱 Node Layout
 
 Below is the recommended node hierarchy for this project:
-
-```
 
 MainNode (root)
 ├── Node2D
@@ -113,8 +111,7 @@ MainNode (root)
 │           ├── Button ("Options")
 │           └── Button ("Quit")
 
-```
 
 The `MenuGen.gd` script — attached to **MainNode** — automatically generates and updates these nodes.  
 Each one is assigned an owner so it appears in the Scene panel and is saved in your `.tscn` file.
-```
+
