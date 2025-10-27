@@ -100,18 +100,16 @@ Here’s the **node layout** section in clean Markdown format for your `README.m
 
 Below is the recommended node hierarchy for this project:
 
-MainNode (root)
-
 MainNode (root)<br>
-├── Node2D<br>
-├── CanvasLayer (MenuLayer)<br>
-│   └── Control (UI)<br>
-│       ├── TextureRect (Title Image)<br>
-│       └── VBoxContainer (Menu Buttons)<br>
-│           ├── Button ("Play Game")<br>
-│           ├── Button ("Editor")<br>
-│           ├── Button ("Options")<br>
-│           └── Button ("Quit")
+&nbsp;&nbsp;├── Node2D<br>
+&nbsp;&nbsp;├── CanvasLayer (MenuLayer)<br>
+&nbsp;&nbsp;&nbsp;&nbsp;└── Control (UI)<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├── TextureRect (Title Image)<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└── VBoxContainer (Menu Buttons)<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├── Button ("Play Game")<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├── Button ("Editor")<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├── Button ("Options")<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└── Button ("Quit")
 
 The `MenuGen.gd` script — attached to **MainNode** — automatically generates and updates these nodes.  
 Each one is assigned an owner so it appears in the Scene panel and is saved in your `.tscn` file.
