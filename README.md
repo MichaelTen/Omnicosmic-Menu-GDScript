@@ -94,5 +94,27 @@ Developed for demonstration and learning purposes in **Godot 4.5.1**.
 Assets and layout created as part of the **Ultra Omnicosmic** series of experiments.
 ```
 
+Here’s the **node layout** section in clean Markdown format for your `README.md`:
 
-Would you like me to make this slightly more *GitHub-optimized* (with a short tagline under the title, emoji icons in section headers, and collapsible setup steps)? It would make it more readable and eye-catching on your repository’s main page.
+## 🧱 Node Layout
+
+Below is the recommended node hierarchy for this project:
+
+```
+
+MainNode (root)
+├── Node2D
+├── CanvasLayer (named "MenuLayer")
+│   └── Control (named "UI")
+│       ├── TextureRect (Title Image)
+│       └── VBoxContainer (Menu Buttons)
+│           ├── Button ("Play Game")
+│           ├── Button ("Editor")
+│           ├── Button ("Options")
+│           └── Button ("Quit")
+
+```
+
+The `MenuGen.gd` script (attached to `MainNode`) automatically generates and updates all of these nodes.  
+Each one is assigned a scene owner, ensuring it appears in the Scene panel and is saved inside your `.tscn` file.
+```
