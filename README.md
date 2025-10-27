@@ -104,8 +104,8 @@ Below is the recommended node hierarchy for this project:
 
 MainNode (root)
 ├── Node2D
-├── CanvasLayer (named "MenuLayer")
-│   └── Control (named "UI")
+├── CanvasLayer (MenuLayer)
+│   └── Control (UI)
 │       ├── TextureRect (Title Image)
 │       └── VBoxContainer (Menu Buttons)
 │           ├── Button ("Play Game")
@@ -115,6 +115,6 @@ MainNode (root)
 
 ```
 
-The `MenuGen.gd` script (attached to `MainNode`) automatically generates and updates all of these nodes.  
-Each one is assigned a scene owner, ensuring it appears in the Scene panel and is saved inside your `.tscn` file.
+The `MenuGen.gd` script — attached to **MainNode** — automatically generates and updates these nodes.  
+Each one is assigned an owner so it appears in the Scene panel and is saved in your `.tscn` file.
 ```
