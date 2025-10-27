@@ -71,31 +71,6 @@ If you don’t see your buttons, enable the `Debug Menu Backdrop` property to co
 
 ---
 
-## 📜 License
-
-This sample code and assets are provided under the **MIT License**.  
-You’re free to modify and use it in your own projects, commercial or non-commercial.
-
-Copyright © Michael Ten
-
-The code for Ultra Omnicosmic is released under the MIT License.
-However, "Ultra Omnicosmic"™ and its associated logos and branding
-are trademarks of Michael Ten.
-
-You are free to use and modify this code, but you may not use the
-"Ultra Omnicosmic" name or branding for derivative projects that are
-not part of the official Ultra Omnicosmic ecosystem.
-
----
-
-## 💡 Credits
-
-Developed for demonstration and learning purposes in **Godot 4.5.1**.  
-Assets and layout created as part of the **Ultra Omnicosmic** series of experiments.
-
-
-Here’s the **node layout** section in clean Markdown format for your `README.md`:
-
 ## 🧱 Node Layout
 
 Below is the recommended node hierarchy for this project:
@@ -114,3 +89,36 @@ MainNode (root)<br>
 The `MenuGen.gd` script — attached to **MainNode** — automatically generates and updates these nodes.  
 Each one is assigned an owner so it appears in the Scene panel and is saved in your `.tscn` file.
 
+
+
+## 📜 License
+
+This sample code and assets are provided under the **MIT License**.  
+You’re free to modify and use it in your own projects, commercial or non-commercial.
+
+Copyright © Michael Ten
+
+The code for Ultra Omnicosmic is released under the MIT License.
+However, "Ultra Omnicosmic"™ and its associated logos and branding
+are trademarks of Michael Ten.
+
+You are free to use and modify this code, but you may not use the
+"Ultra Omnicosmic" name or branding for derivative projects that are
+not part of the official Ultra Omnicosmic ecosystem.
+
+### Attribution
+
+All game art labeled with CC-BY-SA is licensed under the Creative Commons Attribution-ShareAlike License (CC-BY-SA).
+
+Acceptable attribution for Michael Ten’s CC-BY-SA art creations includes:  
+- "by Michael Ten of [MichaelTen.com](https://MichaelTen.com)", or  
+- "by Michael Ten of [UltraOmnicosmic.com](https://UltraOmnicosmic.com)"
+
+No additional permission is required provided the above attribution is included and the ShareAlike terms are followed.
+
+---
+
+## 💡 Credits
+
+Developed for demonstration and learning purposes in **Godot 4.5.1**.  
+Assets and layout created as part of the **Ultra Omnicosmic** series of experiments.
